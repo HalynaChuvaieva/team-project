@@ -4,6 +4,9 @@ body {
   min-width: 100vw;
   min-height: 100vh;
   margin: 0;
+  color: #030a06;
+  background-color: #EBF8ED;
+  font-family: "Fira Sans", sans-serif;
 }
 
 main {
@@ -13,3 +16,21 @@ main:has(.back-link) {
   text-align: center;
 }
 
+.container {
+  max-width: 320px;
+  padding: 0 16px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding: 0 32px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .container {
+    max-width: 1440px;
+    padding: 0 64px;
+  }
+}
