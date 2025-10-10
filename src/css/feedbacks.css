@@ -1,0 +1,30 @@
+.container.feedback {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.feedbacks-title {
+  font-family: 'Comfortaa', sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+@media screen and (min-width: 768px) {
+  .container.feedback {
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .feedbacks-title {
+    font-size: 48px;
+    max-width: 560px;
+    max-height: 116px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+  }
+}
