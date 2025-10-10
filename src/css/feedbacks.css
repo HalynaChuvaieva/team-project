@@ -16,9 +16,18 @@
   flex-direction: column;
   gap: 40px;
 }
-.feedbacks-list-item {
-  min-width: 288px;
+.stars-list {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 12px;
 }
+.stars-svg {
+  fill: #3ac04c;
+}
+.feedbacks-list-item {
+  width: 288px;
+}
+
 .feedbacks-comments {
   font-family: 'Comfortaa', sans-serif;
   font-weight: 700;
@@ -33,6 +42,11 @@
   font-size: 16px;
   line-height: 1.6;
 }
+.feedbacks-name {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.6;
+}
 
 @media only screen and (min-width: 768px) {
   .feedback {
@@ -43,8 +57,10 @@
   .feedbacks-list {
     flex-direction: row;
     flex-wrap: wrap;
-    /* width: calc((100% - 24px) / 2); */
     gap: 32px 24px;
+  }
+  .stars-list {
+    margin-bottom: 24px;
   }
   .feedbacks-list-item {
     width: 340px;
@@ -69,5 +85,8 @@
   }
   .feedbacks-list-item {
     width: 310px;
+  }
+  .feedbacks-comments {
+    min-height: 84px;
   }
 }
