@@ -1,11 +1,118 @@
-/*-------ABAUT-------*/
+/* -------ABOUT------- */
 
-.abaut-product {
-  background-image: url();
+.about-product {
+  background-image: url(../img/about/about@1x.jpg);
+  background-size: cover;
+  background-position: center;
+  max-width: 100%;
+  margin: 0 auto;
+  height: auto;
+  padding: 64px 64px;
 }
-.abaut-content {
+
+.container {
+  width: 320px;
+  min-height: 220px;
+  text-align: center;
+  color: #fff;
+  margin-left: auto;
+  margin-right: auto;
 }
-.abaut-subtitle {
+
+.section-title {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 12px;
 }
-.abaut-desc {
+
+.about-subtitle {
+  font-family: 'Comfortaa', sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.about-desc {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  color: #fff;
+  max-width: 573px;
+  margin: 0 auto;
+}
+
+/* -------------------ABOUT - TABLET------------- */
+
+@media screen and (min-width: 768px) {
+  .about-product {
+    background-image: url(../img/about/about@1x.jpg);
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  .container {
+    width: 768px;
+    min-height: 165px;
+  }
+
+  .section-title {
+    margin-bottom: 16px;
+  }
+
+  .about-subtitle {
+    margin-bottom: 24px;
+  }
+
+  .about-desc {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 768px) and (min-resolution: 192dpi),
+  screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+  .about-product {
+    background-image: url(../img/about/about@2x.jpg);
+  }
+}
+
+/* ------------ABOUT - DESKTOP ----------- */
+
+@media screen and (min-width: 1440px) {
+  .about-product {
+    background-image: url(../img/about/about@1x.jpg);
+  }
+
+  .container {
+    width: 1440px;
+  }
+
+  .about-subtitle {
+    max-width: 629px;
+    font-size: 56px;
+    margin-bottom: 24px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .about-desc {
+    font-size: 18px;
+    max-width: 573px;
+  }
+}
+
+@media screen and (min-width: 1440px) and (min-resolution: 192dpi),
+  screen and (min-width: 1440px) and (-webkit-min-device-pixel-ratio: 2) {
+  .about-product {
+    background-image: url(../img/about/about@2x.jpg);
+  }
 }
