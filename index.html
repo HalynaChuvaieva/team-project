@@ -14,7 +14,7 @@
       integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
       crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script type="module" crossorigin src="/team-project/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/team-project/assets/index-DygzP1qt.css">
+    <link rel="stylesheet" crossorigin href="/team-project/assets/index-CjdWuIsw.css">
   </head>
   <body>
     <header class="header">
@@ -123,18 +123,37 @@
 
     <main>
       <!-- Loads the specified .html file -->
-        <section class="hero">
-    <div class="conteiner">
+        <section class="hero" id="hero">
+    <div class="container hero-container">
+        <div class="hero-content">
+         <div class="hero-left">
      <h1 class="section-title" lang="uk">EcoTote — Стиль, що не шкодить планеті.</h1>
+        </div>
+        <div class="hero-right">    
        <p class="hero-text" lang="uk">Екологічні сумки для тих, хто дбає про майбутнє. Обирайте стиль та відповідальність разом з EcoTote.</p>
          <button class="hero-button" type="button" lang="uk">Купи зараз</button>
-           <img 
+        </div>
+         </div>
+         <picture class="hero-picture">
+           <source class="hero-image"
+             srcset="/team-project/assets/hero@1x-B4M0DjKb.jpg 1x, /team-project/assets/hero@2x-BgYm9XV7.jpg 2x"
+             media="(min-width: 1440px)"
+             />
+            <source class="hero-image"
+                srcset="/team-project/assets/hero-tab@1x-D3qovOU_.jpg 1x, /team-project/assets/hero-tab@2x-k1JIEtV6.jpg 2x"
+                media="(min-width: 768px)"
+                />
+                <source class="hero-image"
+                srcset="/team-project/assets/hero-mob@1x-lRTEwn8L.jpg 1x, /team-project/assets/hero-mob@2x-c4t4VKMx.jpg 2x"
+                media="(min-width: 320px)"
+                />
+           <img
              class="hero-image"
-             src=""
-             alt=""
-             width=""
-             height=""
-           />
+             src="/team-project/assets/hero@1x-B4M0DjKb.jpg"
+                alt="EcoBag"
+                width="1312"
+             />
+        </picture>
     </div>
 </section>
         <section class="about-product" id="about">
