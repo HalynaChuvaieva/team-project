@@ -1,0 +1,92 @@
+.feedback {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.feedbacks-title {
+  font-family: 'Comfortaa', sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  text-align: center;
+  margin-bottom: 32px;
+}
+.feedbacks-list {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.stars-list {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 12px;
+}
+.stars-svg {
+  fill: #3ac04c;
+}
+.feedbacks-list-item {
+  width: 288px;
+}
+
+.feedbacks-comments {
+  font-family: 'Comfortaa', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.4;
+  letter-spacing: 0.01em;
+  margin-bottom: 12px;
+}
+.feedbacks-name {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.6;
+}
+.feedbacks-name {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+@media only screen and (min-width: 768px) {
+  .feedback {
+    width: 1440px;
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
+  .feedbacks-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 32px 24px;
+  }
+  .stars-list {
+    margin-bottom: 24px;
+  }
+  .feedbacks-list-item {
+    width: 340px;
+  }
+  .feedbacks-comments {
+    margin-bottom: 24px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .feedbacks-title {
+    font-size: 48px;
+    max-width: 560px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+  }
+  .feedbacks-list {
+    flex-wrap: nowrap;
+    width: calc((100% - 72) / 4);
+    gap: 24px;
+  }
+  .feedbacks-list-item {
+    width: 310px;
+  }
+  .feedbacks-comments {
+    min-height: 84px;
+  }
+}
