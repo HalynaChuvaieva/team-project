@@ -1,18 +1,20 @@
 /* -------ABOUT------- */
 
 .about-product {
-  background-image: url(../img/about/about-mob@1x.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../img/about/about-mob@1x.jpg);
 
   background-size: cover;
   background-position: center;
   max-width: 100%;
   margin: 0 auto;
   height: auto;
-  padding: 64px 16px;
+  padding: 64px 0;
 }
 @media screen and (min-resolution: 192dpi), (-webkit-device-pixel-ratio: 2) {
   .about-product {
-    background-image: url(../img/about/about-mob@2x.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(../img/about/about-mob@2x.jpg);
   }
 }
 
@@ -54,7 +56,8 @@
 
 @media screen and (min-width: 768px) {
   .about-product {
-    background-image: url(../img/about/about-tab@1x.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(../img/about/about-tab@1x.jpg);
     padding-top: 80px;
     padding-bottom: 80px;
     min-height: 165px;
@@ -76,7 +79,8 @@
 @media screen and (min-width: 768px) and (min-resolution: 192dpi),
   screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
   .about-product {
-    background-image: url(../img/about/about-tab@2x.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(../img/about/about-tab@2x.jpg);
   }
 }
 
@@ -84,7 +88,8 @@
 
 @media screen and (min-width: 1440px) {
   .about-product {
-    background-image: url(../img/about/about@1x.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(../img/about/about@1x.jpg);
     width: 1440px;
   }
 
@@ -105,7 +110,8 @@
 @media screen and (min-width: 1440px) and (min-resolution: 192dpi),
   screen and (min-width: 1440px) and (-webkit-min-device-pixel-ratio: 2) {
   .about-product {
-    background-image: url(../img/about/about@2x.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(../img/about/about@2x.jpg);
     margin-bottom: 16px;
   }
 }
