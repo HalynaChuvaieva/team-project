@@ -14,16 +14,18 @@
       integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
       crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script type="module" crossorigin src="/team-project/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/team-project/assets/index-CHgcC1ti.css">
+    <link rel="stylesheet" crossorigin href="/team-project/assets/index-D_O7b0H6.css">
   </head>
   <body>
     <header class="header">
   <div class="header-container container">
-    <logo class="header-logo">
-      <svg class="header-logo-icon" width="84" height="36">
-        <use href="#"></use>
-      </svg>
-    </logo>
+    <div class="header-logo">
+      <a href="index.html">
+        <svg class="header-logo-icon" width="84" height="36">
+          <use href="/src/index.html"></use>
+        </svg>
+      </a>
+    </div>
     <nav class="header-navigation">
       <ul class="header-navigation-list">
         <li class="header-navigation-list-item">
@@ -56,19 +58,26 @@
         </li>
       </ul>
     </address>
-    <button type="button" class="mobile-menu-open-btn">
+    <button data-menu-open type="button" class="mobile-menu-open-btn">
       <svg class="mobile-menu-open-btn-icon" width="32" height="32">
         <use href="#"></use>
       </svg>
     </button>
   </div>
-  <div class="mobile-menu">
-    <div class="mobile-menu-navigation">
-      <button type="button" class="mobile-menu-close-btn">
+  <div data-menu class="mobile-menu" id="mobile-menu">
+    <div class="mobile-menu-header">
+      <logo class="header-logo">
+        <svg class="mobile-menu-logo-icon" width="84" height="36">
+          <use href=""></use>
+        </svg>
+      </logo>
+      <button data-menu-close type="button" class="mobile-menu-close-btn">
         <svg class="mobile-menu-close-btn-icon" width="32" height="32">
-          <use href="#"></use>
+          <use href=""></use>
         </svg>
       </button>
+    </div>
+    <div class="mobile-menu-navigation">
       <ul class="mobile-menu-list">
         <li class="mobile-menu-list-item">
           <a class="mobile-menu-list-item-link" href="">Про нас</a>
@@ -90,7 +99,7 @@
         </li>
       </ul>
     </div>
-    <div class="mobile-menu-contacts">
+    <address class="mobile-menu-contacts">
       <ul class="mobile-menu-contacts-list">
         <li class="mobile-menu-contacts-list-item">
           <a href="tel:+38(099)9091122">+38 (099) 909 11 22</a>
@@ -99,7 +108,7 @@
           <a href="mailto:hello@ecotote.com">hello@ecotote.com</a>
         </li>
       </ul>
-    </div>
+    </address>
   </div>
 </header>
 
@@ -124,8 +133,8 @@
 <section class="abaut-product">
   <div class="container">
     <h2 class="section-title">Природність</h2>
-    <p class="abaut-subtitle">Турбота про планету</p>
-    <p class="abaut-desc">
+    <p class="about-subtitle">Турбота про планету</p>
+    <p class="about-desc">
       Ми використовуємо органічну бавовну, перероблений пластик, льон та коноплі
       для наших сумок.
     </p>
@@ -168,7 +177,120 @@
         </ul>
     </div>
 </section>
-        
+        <section class="assortment">
+    <div class="container">
+        <h2 class="section-title">Наші Сумки</h2>
+        <ul class="assortment-list">
+            <li class="assortment-list-item">
+                <div class="assortment-image-box">
+                    <img class="assortment-list-image"
+                        srcset="../img/assortment/bag1@1x.jpg 1x, ../img/assortment/bag1@2x.jpg 2x"
+                        src="../img/assortment/bag1@1x.jpg" alt="EcoBag Classic">
+                </div>
+                <div class="assortment-info-box">
+                    <h3 class="assortment-title">EcoBag Classic</h3>
+                    <p class="assortment-description">Елегантна та містка сумка для щоденного використання.
+                    </p>
+                    <span class="assortment-price">$25</span>
+                </div>
+                <button class="assortment-button" type="button">Купити</button>
+            </li>
+            <li class="assortment-list-item">
+                <div class="assortment-image-box">
+                    <img class="assortment-list-image"
+                        srcset="../img/assortment/bag2@1x.jpg 1x, ../img/assortment/bag2@2x.jpg 2x"
+                        src="../img/assortment/bag2@1x.jpg" alt="EcoTote Shopper">
+                </div>
+                <div class="assortment-info-box">
+                    <h3 class="assortment-title">EcoTote Shopper</h3>
+                    <p class="assortment-description">Ідеальна для покупок, з<br>посиленими ручками.</p>
+                    <span class="assortment-price">$30</span>
+                </div>
+                <button class="assortment-button" type="button">Купити</button>
+            </li>
+            <li class="assortment-list-item">
+                <div class="assortment-image-box">
+                    <img class="assortment-list-image"
+                        srcset="../img/assortment/bag3@1x.jpg 1x, ../img/assortment/bag3@2x.jpg 2x"
+                        src="../img/assortment/bag3@1x.jpg" alt="EcoBackpack Urban">
+                </div>
+                <div class="assortment-info-box">
+                    <h3 class="assortment-title">EcoBackpack Urban</h3>
+                    <p class="assortment-description">Зручний рюкзак для міста з відділенням для ноутбука.
+                    </p>
+                    <span class="assortment-price">$45</span>
+                </div>
+                <button class="assortment-button" type="button">Купити</button>
+            </li>
+            <li class="assortment-list-item">
+                <div class="assortment-image-box">
+                    <img class="assortment-list-image"
+                        srcset="../img/assortment/bag4@1x.jpg 1x, ../img/assortment/bag4@2x.jpg 2x"
+                        src="../img/assortment/bag4@1x.jpg" alt="EcoCrossbody Mini">
+                </div>
+                <div class="assortment-info-box">
+                    <h3 class="assortment-title">EcoCrossbody Mini</h3>
+                    <p class="assortment-description">Компактна сумка через плече для найнеобхіднішого.</p>
+                    <span class="assortment-price">$20</span>
+                </div>
+                <button class="assortment-button" type="button">Купити</button>
+            </li>
+            <li class="assortment-list-item">
+                <div class="assortment-image-box">
+                    <img class="assortment-list-image"
+                        srcset="../img/assortment/bag5@1x.jpg 1x, ../img/assortment/bag5@2x.jpg 2x"
+                        src="../img/assortment/bag5@1x.jpg" alt="EcoLunch Bag">
+                </div>
+                <div class="assortment-info-box">
+                    <h3 class="assortment-title">EcoLunch Bag</h3>
+                    <p class="assortment-description">Стильна та практична сумка для обідів.</p>
+                    <span class="assortment-price">$15</span>
+                </div>
+                <button class="assortment-button" type="button">Купити</button>
+            </li>
+            <li class="assortment-list-item">
+                <div class="assortment-image-box">
+                    <img class="assortment-list-image"
+                        srcset="../img/assortment/bag6@1x.jpg 1x, ../img/assortment/bag6@2x.jpg 2x"
+                        src="../img/assortment/bag6@1x.jpg" alt="EcoBeach Tote">
+                </div>
+                <div class="assortment-info-box">
+                    <h3 class="assortment-title">EcoBeach Tote</h3>
+                    <p class="assortment-description">Велика сумка для пляжних речей з водонепроникною
+                        підкладкою.</p>
+                    <span class="assortment-price">$35</span>
+                </div>
+                <button class="assortment-button" type="button">Купити</button>
+            </li>
+            <li class="assortment-list-item">
+                <div class="assortment-image-box">
+                    <img class="assortment-list-image"
+                        srcset="../img/assortment/bag7@1x.jpg 1x, ../img/assortment/bag7@2x.jpg 2x"
+                        src="../img/assortment/bag7@1x.jpg" alt="EcoTravel Duffle">
+                </div>
+                <div class="assortment-info-box">
+                    <h3 class="assortment-title">EcoTravel Duffle</h3>
+                    <p class="assortment-description">Містка дорожня сумка з додатковими кишенями.</p>
+                    <span class="assortment-price">$60</span>
+                </div>
+                <button class="assortment-button" type="button">Купити</button>
+            </li>
+            <li class="assortment-list-item">
+                <div class="assortment-image-box">
+                    <img class="assortment-list-image"
+                        srcset="../img/assortment/bag8@1x.jpg 1x, ../img/assortment/bag8@2x.jpg 2x"
+                        src="../img/assortment/bag8@1x.jpg" alt="EcoKids Bag">
+                </div>
+                <div class="assortment-info-box">
+                    <h3 class="assortment-title">EcoKids Bag</h3>
+                    <p class="assortment-description">Яскрава та зручна сумка для дітей.</p>
+                    <span class="assortment-price">$22</span>
+                </div>
+                <button class="assortment-button" type="button">Купити</button>
+            </li>
+        </ul>
+    </div>
+</section>
         
         <section>
   <div class="container feedback">
