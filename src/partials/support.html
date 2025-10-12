@@ -1,0 +1,82 @@
+<section class="support-section" id="support">
+  <div class="container support-container">
+    <div class="title-form">
+      <h2 class="section-title support-title" lang="uk">
+        Залишились питання? Зв'яжіться з нами!
+      </h2>
+      <p class="support-subtitle">Ми тут, щоб допомогти!</p>
+      <form class="support-form">
+        <div class="support-field">
+          <label for="user-name" class="support-input-label">Ім'я</label>
+          <input
+            class="support-input"
+            type="text"
+            name="user-name"
+            id="user-name"
+            placeholder="Іван"
+            required
+          />
+        </div>
+
+        <div class="support-field">
+          <label for="user-email" class="support-input-label"
+            >Електронна пошта</label
+          >
+
+          <input
+            class="support-input"
+            type="email"
+            name="user-email"
+            id="user-email"
+            placeholder="hello@ecotote.com"
+            required
+          />
+        </div>
+        <div class="support-field-textarea">
+          <label for="user-comment" class="support-input-label"
+            >Повідомлення</label
+          >
+          <textarea
+            class="support-text-comment"
+            name="user-comment"
+            id="user-comment"
+            placeholder="Введіть своє повідомлення..."
+            required
+          ></textarea>
+        </div>
+        <button class="button supportbtn-submit" type="submit">
+          Надіслати
+        </button>
+      </form>
+    </div>
+
+    <picture>
+      <source
+        srcset="/img/support/studio@1x.jpg 1x, /img/support/studio@2x.jpg 2x"
+        media="(min-width: 1440px)"
+      />
+      <source
+        srcset="
+          /img/support/studio-tab@1x.jpg 1x,
+          /img/support/studio-tab@2x.jpg 2x
+        "
+        media="(min-width: 768px)"
+      />
+      <source
+        srcset="
+          /img/support/studio-mob@1x.jpg 1x,
+          /img/support/studio-mob@2x.jpg 2x
+        "
+        media="(max-width: 767px)"
+      />
+      <img
+        class="support-img"
+        src="/img/support/studio-mob@1x.jpg"
+        alt="toebag-print"
+        loading="lazy"
+        width="288"
+        height="428"
+      />
+    </picture>
+  </div>
+</section>

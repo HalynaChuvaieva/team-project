@@ -1,7 +1,9 @@
 /* -------ABOUT------- */
+
 .about-product {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url(../img/about/about-mob@1x.jpg);
+
   background-size: cover;
   background-position: center;
   max-width: 100%;

@@ -1,10 +1,16 @@
 <header class="header">
   <div class="header-container container">
-    <logo class="header-logo">
-      <svg class="header-logo-icon" width="84" height="36">
-        <use href="#"></use>
-      </svg>
-    </logo>
+    <div class="header-logo">
+      <a href="index.html">
+        <img
+          class="header-logo-icon"
+          src="./img/logo.svg"
+          alt="Логотип EcoTote"
+          width="84"
+          height="36"
+        />
+      </a>
+    </div>
     <nav class="header-navigation">
       <ul class="header-navigation-list">
         <li class="header-navigation-list-item">
@@ -37,19 +43,30 @@
         </li>
       </ul>
     </address>
-    <button type="button" class="mobile-menu-open-btn">
+    <button data-menu-open type="button" class="mobile-menu-open-btn">
       <svg class="mobile-menu-open-btn-icon" width="32" height="32">
-        <use href="#"></use>
+        <use href="/img/icons.svg#icon-burgermenu"></use>
       </svg>
     </button>
   </div>
-  <div class="mobile-menu">
-    <div class="mobile-menu-navigation">
-      <button type="button" class="mobile-menu-close-btn">
+  <div data-menu class="mobile-menu" id="mobile-menu">
+    <div class="mobile-menu-header">
+      <logo class="header-logo">
+        <a href="index.html"
+          ><img
+            src="/img/logo.svg"
+            alt="Логотип EcoTote"
+            width="84"
+            height="36"
+        /></a>
+      </logo>
+      <button data-menu-close type="button" class="mobile-menu-close-btn">
         <svg class="mobile-menu-close-btn-icon" width="32" height="32">
-          <use href="#"></use>
+          <use href="/img/icons.svg#icon-closebtn"></use>
         </svg>
       </button>
+    </div>
+    <div class="mobile-menu-navigation">
       <ul class="mobile-menu-list">
         <li class="mobile-menu-list-item">
           <a class="mobile-menu-list-item-link" href="">Про нас</a>
@@ -71,7 +88,7 @@
         </li>
       </ul>
     </div>
-    <div class="mobile-menu-contacts">
+    <address class="mobile-menu-contacts">
       <ul class="mobile-menu-contacts-list">
         <li class="mobile-menu-contacts-list-item">
           <a href="tel:+38(099)9091122">+38 (099) 909 11 22</a>
@@ -80,6 +97,6 @@
           <a href="mailto:hello@ecotote.com">hello@ecotote.com</a>
         </li>
       </ul>
-    </div>
+    </address>
   </div>
 </header>
