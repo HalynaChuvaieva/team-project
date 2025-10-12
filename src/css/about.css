@@ -7,14 +7,13 @@
   max-width: 100%;
   margin: 0 auto;
   height: auto;
-  padding: 64px 64px;
+  padding: 64px 16px;
 }
 
 .container {
+  display: block;
   width: 320px;
   min-height: 220px;
-  text-align: center;
-  color: #fff;
   margin-left: auto;
   margin-right: auto;
 }
@@ -37,6 +36,7 @@
   letter-spacing: 0.01em;
   text-align: center;
   color: #fff;
+
   margin-bottom: 20px;
 }
 
