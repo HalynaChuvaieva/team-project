@@ -1,14 +1,36 @@
-<section class="hero">
-    <div class="conteiner">
+<section class="hero" id="hero">
+    <div class="container hero-container">
+        <div class="hero-content">
+         <div class="hero-left">
      <h1 class="section-title" lang="uk">EcoTote — Стиль, що не шкодить планеті.</h1>
+        </div>
+        <div class="hero-right">    
        <p class="hero-text" lang="uk">Екологічні сумки для тих, хто дбає про майбутнє. Обирайте стиль та відповідальність разом з EcoTote.</p>
          <button class="hero-button" type="button" lang="uk">Купи зараз</button>
-           <img 
+        </div>
+         </div>
+         <picture class="hero-picture">
+           <source class="hero-image"
+             srcset="/img/hero/hero@1x.jpg 1x, 
+             /img/hero/hero@2x.jpg 2x"
+             media="(min-width: 1440px)"
+             />
+            <source class="hero-image"
+                srcset="/img/hero/hero-tab@1x.jpg 1x,
+                /img/hero/hero-tab@2x.jpg 2x"
+                media="(min-width: 768px)"
+                />
+                <source class="hero-image"
+                srcset="/img/hero/hero-mob@1x.jpg 1x,
+                /img/hero/hero-mob@2x.jpg 2x"
+                media="(min-width: 320px)"
+                />
+           <img
              class="hero-image"
-             src=""
-             alt=""
-             width=""
-             height=""
-           />
+             src="/img/hero/hero@1x.jpg"
+                alt="EcoBag"
+                width="1312"
+             />
+        </picture>
     </div>
 </section>
