@@ -1,0 +1,127 @@
+.support-title {
+  font-family: 'Comfortaa', sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  color: #030a06;
+  margin-bottom: 24px;
+  text-align: left;
+}
+.support-subtitle {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 32px;
+}
+.title-form {
+  width: 100%;
+}
+
+.support-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 32px;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.support-img {
+  border-radius: 40px;
+}
+.support-input-label {
+  display: block;
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 8px;
+  line-height: 1.6;
+  color: #030a06;
+}
+.support-input {
+  width: 100%;
+  outline: none;
+  border: 1px solid rgba(3, 10, 6, 0.15);
+  border-radius: 6px;
+  padding: 8px 12px;
+  height: 42px;
+  background-color: rgba(3, 10, 6, 0.05);
+  color: rgba(3, 10, 6, 0.6);
+  margin-bottom: 24px;
+}
+.support-text-comment {
+  width: 100%;
+  outline: none;
+  min-height: 180px;
+  border: 1px solid rgba(3, 10, 6, 0.15);
+  border-radius: 6px;
+  padding: 8px 12px;
+  background-color: rgba(3, 10, 6, 0.05);
+  color: rgba(3, 10, 6, 0.6);
+  margin-bottom: 24px;
+}
+
+.supportbtn-submit {
+  border: 1px solid #030a06;
+  border-radius: 6px;
+  padding: 12px 24px;
+  width: 100%;
+  height: 50px;
+  background-color: #030a06;
+  color: #fff;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.supportbtn-submit:hover,
+.supportbtn-submit:focus {
+  opacity: 0.5;
+}
+.supportbtn-submit:active {
+  border: 1px solid #113916;
+  background-color: #113916;
+  opacity: 0.6;
+}
+@media screen and (min-width: 768px) {
+  .support-container {
+    padding: 64px 32px;
+  }
+  .title-form {
+    width: 704px;
+  }
+  .supportbtn-submit {
+    width: 249px;
+  }
+  .support-img {
+    width: 704px;
+    height: 428px;
+  }
+  .support-title {
+    width: 468px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .support-container {
+    align-items: stretch;
+    padding: 64px;
+  }
+  .support-title {
+    width: 100%;
+    font-size: 48px;
+  }
+  .title-form {
+    text-align: top;
+    width: 644px;
+  }
+  .supportbtn-submit {
+    width: 198px;
+  }
+  .support-img {
+    width: 644px;
+    height: 767px;
+  }
+}
