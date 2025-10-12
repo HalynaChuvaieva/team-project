@@ -9,14 +9,16 @@
   padding: 64px 16px;
 }
 
-.section-title {
+.section-about-title {
   font-family: 'Fira Sans', sans-serif;
   font-weight: 600;
   font-size: 16px;
   line-height: 1.5;
   text-align: center;
-  color: #fff;
   margin-bottom: 12px;
+}
+.title-white {
+  color: #fff;
 }
 
 .about-subtitle {
