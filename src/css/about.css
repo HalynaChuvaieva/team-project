@@ -1,35 +1,14 @@
 /* -------ABOUT------- */
-.abaut-product{
-  background-image: url(../img/about/about-mob@1x.jpg);
+.abaut-product {
+  background-image: url(../img/about/about@1x.jpg);
   background-size: cover;
   background-position: center;
   max-width: 100%;
   margin: 0 auto;
   height: auto;
-  padding: 64px 64px;
+  padding: 64px 16px;
 }
 
-.container {
-  width: 320px;
-  min-height: 220px;
-  text-align: center;
-  color: #fff;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-  padding-top: 112px;
-  padding-bottom: 94px;
-  height: 462px;
-}
-.container {
-  width: 768px;
-  min-height: 256px;
-  text-align: center;
-  color: #fff;
-  margin-left: auto;
-  margin-right: auto;
-}
 .section-title {
   font-family: 'Fira Sans', sans-serif;
   font-weight: 600;
@@ -125,8 +104,8 @@
   screen and (min-width: 1440px) and (-webkit-min-device-pixel-ratio: 2) {
   .about-product {
     background-image: url(../img/about/about@2x.jpg);
+    margin-bottom: 16px;
   }
-  margin-bottom: 16px;
 }
 .abaut-subtitle {
   font-family: 'Comfortaa', sans-serif;
@@ -143,5 +122,4 @@
   font-size: 18px;
   line-height: 1.6;
   text-align: center;
-  background-image: url();
 }
