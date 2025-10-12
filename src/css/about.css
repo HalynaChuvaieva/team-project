@@ -1,5 +1,5 @@
 /* -------ABOUT------- */
-.abaut-product {
+.about-product {
   background-image: url(../img/about/about-mob@1x.jpg);
   background-size: cover;
   background-position: center;
@@ -7,6 +7,11 @@
   margin: 0 auto;
   height: auto;
   padding: 64px 16px;
+}
+@media screen and (min-resolution: 192dpi), (-webkit-device-pixel-ratio: 2) {
+  .about-product {
+    background-image: url(../img/about/about-mob@2x.jpg);
+  }
 }
 
 .section-about-title {
@@ -50,14 +55,10 @@
     background-image: url(../img/about/about-tab@1x.jpg);
     padding-top: 80px;
     padding-bottom: 80px;
-  }
-
-  .container {
-    width: 768px;
     min-height: 165px;
   }
 
-  .section-title {
+  .section-about-title {
     margin-bottom: 16px;
   }
 
@@ -82,9 +83,6 @@
 @media screen and (min-width: 1440px) {
   .about-product {
     background-image: url(../img/about/about@1x.jpg);
-  }
-
-  .container {
     width: 1440px;
   }
 
