@@ -1,6 +1,8 @@
 /* -------ABOUT------- */
+
 .about-product {
   background-image: url(../img/about/about-mob@1x.jpg);
+
   background-size: cover;
   background-position: center;
   max-width: 100%;
