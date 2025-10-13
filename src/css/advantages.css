@@ -55,9 +55,11 @@
         margin-bottom: 8px;
         margin-top: 32px;
     }
-    .advantage-property.sec{
-        margin-bottom: 42px;
-    }
+}
+@media screen and (min-width: 768px) and (max-width: 1439px){
+    .advantage-property.sec {
+            margin-bottom: 42px;
+        }
 }
 @media screen and (min-width: 1440px){
     .adv-card-list {
@@ -70,5 +72,6 @@
     }
     .advantage-property{
         margin-bottom: 24px;
+        max-width: 320px;
     }
 }
