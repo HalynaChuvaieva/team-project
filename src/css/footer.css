@@ -1,21 +1,179 @@
+/* ===== FOOTER ===== */
+/* Mobile First подход */
+
 .footer {
-  padding: 20px 0;
+  background-color: #7ab87d; /* Зелений фон як на скриншотах */
+  padding: 48px 20px;
 }
-.footer-desc {
+
+/* .footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+} */
+
+/* Логотип */
+.footer-logo {
   text-align: center;
+  margin-bottom: 48px;
 }
-.footer-link {
-  position: relative;
+
+.footer-logo a {
+  display: inline-block;
 }
-.footer-link::before {
-  content: '';
-  position: absolute;
-  bottom: 6%;
-  left: 50%;
-  transform: translateX(-50%) skewX(-12deg);
-  z-index: -1;
-  width: 110%;
-  height: 24%;
-  background-color: #41d1ff;
-  transition: 200ms ease;
+
+.footer-logo-icon {
+  display: block;
+}
+
+/* Навігація */
+.footer-navigation {
+  margin-bottom: 48px;
+}
+
+.footer-navigation-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+
+.footer-navigation-list-item-link {
+  text-decoration: none;
+  color: #1a1a1a;
+  font-weight: 400;
+font-size: 16px;
+line-height: 1.6;
+  transition: color 0.3s ease;
+}
+
+.footer-navigation-list-item-link:hover,
+.footer-navigation-list-item-link:focus {
+  color: #ffffff;
+}
+
+/* Соціальні мережі */
+.footer-socials {
+  margin-bottom: 48px;
+}
+
+.footer-socials-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+.footer-socials-list-item a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: transparent;
+  transition: background-color 0.3s ease;
+}
+
+.footer-socials-list-item a:hover,
+.footer-socials-list-item a:focus {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.footer-socials-icon {
+  fill: #1a1a1a;
+  transition: fill 0.3s ease;
+}
+
+.footer-socials-list-item a:hover .footer-socials-icon,
+.footer-socials-list-item a:focus .footer-socials-icon {
+  fill: #ffffff;
+}
+
+/* Контакти */
+.footer-contacts {
+  font-style: normal;
+  margin-bottom: 20px;
+}
+
+.footer-contacts-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.footer-contacts-list-item a {
+  text-decoration: none;
+  color: #1a1a1a;
+  font-size: 16px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.footer-contacts-list-item a:hover,
+.footer-contacts-list-item a:focus {
+  color: #ffffff;
+}
+
+/* Копірайт */
+.footer-copyright {
+  text-align: center;
+  padding-top: 20px;
+  border-top: 1px solid rgba(26, 26, 26, 0.2);
+}
+
+.footer-copyright p {
+  margin: 0;
+  color: #1a1a1a;
+  font-size: 14px;
+}
+
+/* ===== АДАПТИВНІ СТИЛІ (Mobile First) ===== */
+
+/* Планшет від 768px */
+@media screen and (min-width: 768px) {
+  .footer {
+    padding: 35px 0 20px;
+  }
+
+  .footer-logo {
+    margin-bottom: 30px;
+  }
+
+  .footer-navigation-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px 30px;
+  }
+
+  .footer-navigation-list-item-link {
+    font-size: 16px;
+  }
+
+  .footer-contacts-list {
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+  }
+}
+
+/* Десктоп від 1200px */
+@media screen and (min-width: 1200px) {
+  .footer {
+    padding: 40px 0 20px;
+  }
+
+  .footer-navigation-list {
+    gap: 20px 40px;
+  }
 }
