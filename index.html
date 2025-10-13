@@ -14,7 +14,7 @@
       integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
       crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script type="module" crossorigin src="/team-project/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/team-project/assets/index-CjdWuIsw.css">
+    <link rel="stylesheet" crossorigin href="/team-project/assets/index-C8qilS0W.css">
   </head>
   <body>
     <header class="header">
@@ -543,6 +543,8 @@
             name="user-name"
             id="user-name"
             placeholder="Іван"
+            minlength="5"
+            maxlength="64"
             required
           />
         </div>
@@ -558,6 +560,7 @@
             name="user-email"
             id="user-email"
             placeholder="hello@ecotote.com"
+            pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
             required
           />
         </div>
@@ -570,7 +573,7 @@
             name="user-comment"
             id="user-comment"
             placeholder="Введіть своє повідомлення..."
-            required
+            maxlength="500"
           ></textarea>
         </div>
         <button class="button supportbtn-submit" type="submit">
@@ -578,29 +581,7 @@
         </button>
       </form>
     </div>
-
-    <picture>
-      <source
-        srcset="/team-project/assets/studio@1x-Cb1kGzUf.jpg 1x, /team-project/assets/studio@2x-Buld2p-C.jpg 2x"
-        media="(min-width: 1440px)"
-      />
-      <source
-        srcset="/team-project/assets/studio-tab@1x-CbNQgbqS.jpg 1x, /team-project/assets/studio-tab@2x-CKnlNHAi.jpg 2x"
-        media="(min-width: 768px)"
-      />
-      <source
-        srcset="/team-project/assets/studio-mob@1x-D-yS46We.jpg 1x, /team-project/assets/studio-mob@2x-DLXzuANj.jpg 2x"
-        media="(max-width: 767px)"
-      />
-      <img
-        class="support-img"
-        src="/team-project/assets/studio-mob@1x-D-yS46We.jpg"
-        alt="toebag-print"
-        loading="lazy"
-        width="288"
-        height="428"
-      />
-    </picture>
+    <div class="support-img"></div>
   </div>
 </section>
 
