@@ -29,8 +29,8 @@
 
 .support-img {
   background-image: image-set(
-    url('/img/support/studio-mob@1x.png') 1x,
-    url('/img/support/studio-mob@2x.png') 2x
+    url('/img/support/studio-mob@1x.webp') 1x,
+    url('/img/support/studio-mob@2x.webp') 2x
   );
   background-size: cover;
   background-repeat: no-repeat;
@@ -125,8 +125,8 @@
   }
   .support-img {
     background-image: image-set(
-      url('/img/support/studio-tab@1x.png') 1x,
-      url('/img/support/studio-tab@2x.png') 2x
+      url('/img/support/studio-tab@1x.webp') 1x,
+      url('/img/support/studio-tab@2x.webp') 2x
     );
     width: 704px;
     height: 428px;
@@ -153,8 +153,8 @@
   }
   .support-img {
     background-image: image-set(
-      url('/img/support/studio@1x.png') 1x,
-      url('/img/support/studio@2x.png') 2x
+      url('/img/support/studio@1x.webp') 1x,
+      url('/img/support/studio@2x.webp') 2x
     );
     width: 644px;
     height: 767px;
