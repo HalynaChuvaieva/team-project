@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Fira+Sans:wght@400;600;700&display=swap"
       rel="stylesheet">
     <script type="module" crossorigin src="/team-project/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/team-project/assets/index-ClXP9SEm.css">
+    <link rel="stylesheet" crossorigin href="/team-project/assets/index-C2BHw5OD.css">
   </head>
   <body>
     <header class="header">
@@ -650,6 +650,7 @@
             maxlength="64"
             required
           />
+          <p class="text-invalid">Помилка вводу</p>
         </div>
 
         <div class="support-field">
@@ -666,6 +667,7 @@
             pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
             required
           />
+          <p class="text-invalid">Помилка вводу</p>
         </div>
         <div class="support-field-textarea">
           <label for="user-comment" class="support-input-label"
@@ -676,6 +678,7 @@
             name="user-comment"
             id="user-comment"
             placeholder="Введіть своє повідомлення..."
+            minlength="80"
             maxlength="500"
           ></textarea>
         </div>
