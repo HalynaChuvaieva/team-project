@@ -18,6 +18,7 @@
             maxlength="64"
             required
           />
+          <p class="text-invalid">Помилка вводу</p>
         </div>
 
         <div class="support-field">
@@ -34,6 +35,7 @@
             pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
             required
           />
+          <p class="text-invalid">Помилка вводу</p>
         </div>
         <div class="support-field-textarea">
           <label for="user-comment" class="support-input-label"
@@ -44,6 +46,7 @@
             name="user-comment"
             id="user-comment"
             placeholder="Введіть своє повідомлення..."
+            minlength="80"
             maxlength="500"
           ></textarea>
         </div>
