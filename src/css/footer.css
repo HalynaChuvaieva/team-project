@@ -1,11 +1,11 @@
 .footer {
+    padding: 48px 0;
   background-color: #75d281;
 }
 
 a {
   font-style: normal;
 }
-
 .tel-list {
   font-family: inherit;
   font-weight: 400;
@@ -103,7 +103,7 @@ a {
 }
 
 .footer-con {
-  padding: 48px 20px;
+  padding: 0 20px;
 }
 
 .footer-logo-link {
@@ -113,25 +113,25 @@ a {
 /* ---------ПЛАНШЕТ----|------ */
 
 @media screen and (min-width: 768px) {
+  .footer {
+    padding: 64px 0;
+  }
   .tit-list {
     flex-direction: row;
     justify-content: center;
     gap: 32px;
   }
-
   .info-ul {
     flex-direction: row;
     gap: 32px;
   }
-
   .footer-logo {
     width: 164px;
     height: auto;
     margin-bottom: 32px;
   }
-
   .footer-con {
-    padding: 64px 32px;
+    padding: 0 32px;
   }
 
   .foot-icons {
@@ -149,23 +149,23 @@ a {
 }
 
 @media screen and (min-width: 1440px) {
+  .footer {
+    padding: 80px 0;
+  }
   .footer-con {
     align-items: center;
-    padding: 80px 64px;
+    padding: 0 64px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
   }
-
   .footer-logo-link {
     width: 164px;
     height: auto;
   }
-
   .footer-logo {
     margin: 0;
   }
-
   .tit-list {
     flex-grow: 1;
   }
