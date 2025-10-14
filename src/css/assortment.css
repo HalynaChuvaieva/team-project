@@ -22,7 +22,7 @@
   height: auto;
 }
 .assortment-info-box {
-  padding-top: 16px;
+  margin-top: 16px;
   display: flex;
   flex-direction: column;
 }
